@@ -11,6 +11,10 @@ export class ProductListComponent implements OnInit {
   propertyTitle = '1111';
   constructor() { }
 
+  Share(): void {
+    console.log(1);
+  }
+
   ngOnInit(): void {
   }
 
